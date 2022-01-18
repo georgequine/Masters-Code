@@ -1,6 +1,4 @@
-# Masters-Code
-An Energy Harvesting Portable and Rollable Large Area Gestural Interface Using Ambient Light
-
+# An Energy Harvesting Portable and Rollable Large Area Gestural Interface Using Ambient Light
 
 In this work, we explored the viability of using ambient light and a large photovoltaic sheet for energy harvesting
 and gesture recognition. Our prototype consists of a large, portable, and rollable gestural interface which can
