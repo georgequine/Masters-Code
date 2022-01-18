@@ -234,11 +234,6 @@ w2 = ttk.Scale(root, from_=0, to=360, orient=HORIZONTAL, length=300)
 w2.pack(padx=10, pady=10)
 w2.set(180)
 
-# #Currently creating 
-# def detectionFunc():
-# 	global detection
-# 	detection = random.choice(list)
-
 
 #Change colour of select button
 def light1():
@@ -246,26 +241,10 @@ def light1():
 	if light1status == 0:
 		button.config(bg = "red")
 		light1status = 1
-		#detectionFunc()
-		# print(detection)
-		# switch()
-		# print(gesture)
-		# update(detection)
-
-
-		# update()
-		# print(detection)
 
 	else:
 		light1status = 0
 		button.config(bg = "green")
-		# detectionFunc()
-		# print(detection)
-		# switch()
-		# print(gesture)
-		# update(detection)
-		# update(detection)
-		# print(detection)
 
 
 #Select button for double hand detection 
