@@ -2,7 +2,21 @@
 An Energy Harvesting Portable and Rollable Large Area Gestural Interface Using Ambient Light
 
 
-An Energy Harvesting Portable and Rollable Large Area Gestural Interface Using Ambient Light
+In this work, we explored the viability of using ambient light and a large photovoltaic sheet for energy harvesting
+and gesture recognition. Our prototype consists of a large, portable, and rollable gestural interface which can
+uniquely distinguish and classify distinct hand gestures performed by a user. The system works under the principle
+that the amount of power harvested by the photodiodes decreases when a near-field object blocks the surrounding
+light. By monitoring these fluctuations, we recognised that different shadow patterns produce a distinct signature in
+the amplitude of the harvested voltage. Delegating the detection responsibilities to machine learning, it was possible
+to capture the hidden meaning within the hand gestures to perform an action in real time. We focused on two
+classifiers, one utilising a machine learning technique, Random Forest (RF), and the other a deep learning classifier,
+a Convolutional Neural Network (CNN). To further improve the robustness of the system, we applied two preprocessing 
+techniques known as Normalisation and Principal Component Analysis to reduce inherent noise caused
+by inevitable environmental and human factors. We evaluated the proposed system under a variety of lighting
+conditions, as well as assessing the significance of the two pre-processing techniques. We trained our models with
+1,050 incidents of 5 unique gestures. The CNN demonstrated the highest overall accuracy in all lighting conditions,
+with 95% accuracy in 1K lux. The RF performed similarly well, obtaining 93% accuracy in 1K lux. Using a
+designed Graphical User Interface (GUI), both models are capable of recognising an unseen gesture in 0.05 seconds
 
 7 folders
  - Convolutional Neural Network
@@ -15,7 +29,9 @@ An Energy Harvesting Portable and Rollable Large Area Gestural Interface Using A
 
 
 Both Convolutional Neural Network and Random Forest folders contain a model file and test file.
+
 Model file is where the architecture and training of the model in implemented
+
 Test file is where the model is tested with various light itensity datasets 
 
 Data Pipeline contains a file to concentrate all seperate gestures into one large dataframe.
