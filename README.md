@@ -49,6 +49,9 @@ Training Data - The dataset the model was trained on.
 
 
 **** ALL CODE WAS IMPLEMENTED ON GOOGLE COLAB (minus Data Pipeline which was implemetned on Jupyter Notebook) *****
+
 To run this code, I highly recommend using Google Colab. It is free
+
 Here is a link to a shared google colab folder with all code and tests available.
+
 Link : https://drive.google.com/drive/folders/1DwjBZtHoHwco2BUn804p5lMKU3-78fuy?usp=sharing
