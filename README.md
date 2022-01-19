@@ -33,8 +33,8 @@ Both Convolutional Neural Network and Random Forest folders contain a model file
 'Test' is where the model is tested with various light itensity datasets. 
 
 'Data Pipeline' contains a file to concentrate all seperate gestures into one large dataframe.
-You can upload a folder containing a series of labelled gestures to concetrate into one dataframe. 
-The folder to upload must be organised by SESSION NAME -> THE GESTURE LABEL -> GESTURE.csv
+			You can upload a folder containing a series of labelled gestures to concetrate into one dataframe. 
+			The folder to upload must be organised by SESSION NAME -> THE GESTURE LABEL -> GESTURE.csv
 
 'Extra' contains all files needed to run the model and tests. Such as a serialized verson of PCA 
 
