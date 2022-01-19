@@ -28,21 +28,21 @@ designed Graphical User Interface (GUI), both models are capable of recognising 
 
 Both Convolutional Neural Network and Random Forest folders contain a model file and test file.
 
-Model file is where the architecture and training of the model in implemented
+'Model' is where the architecture and training of the model in implemented.
 
-Test file is where the model is tested with various light itensity datasets 
+'Test' is where the model is tested with various light itensity datasets. 
 
-Data Pipeline contains a file to concentrate all seperate gestures into one large dataframe.
-You can upload a folder containing a series of labelled gestures to concetrate. 
-The folder to upload must be organised by DATASET NAME -> LABELLED GESTURE FOLDER -> Gesture csv
+'Data Pipeline' contains a file to concentrate all seperate gestures into one large dataframe.
+You can upload a folder containing a series of labelled gestures to concetrate into one dataframe. 
+The folder to upload must be organised by SESSION NAME -> THE GESTURE LABEL -> GESTURE.csv
 
-Extra contains all files needed to run the model and tests. Such as a serialized verson of PCA 
+'Extra' contains all files needed to run the model and tests. Such as a serialized verson of PCA 
 
-GUI contains a GUI for both models. Run this in command by locating the directory and running python FILE_NAME.py
+'GUI' contains a GUI for both models. Run this in command by locating the directory and running python FILE_NAME.py
 
-Testing Data - Contains a 6 different light intensities and one flashing light dataset. All unseen to the model
+'Testing Data' contains a dataset of 6 different light intensities and one flashing light. All unseen to the trained model
 
-Training Data - The dataset the model was trained on.
+Training Data - The dataset the model was trained with.
 
 
 
@@ -50,6 +50,8 @@ Training Data - The dataset the model was trained on.
 
 To run this code, I highly recommend using Google Colab. It is free
 
-Here is a link to a shared google colab folder with all code and tests available.
+All models and tests contain a link to Google Colab
+
+Here is a link to a shared Google Colab folder with all code and tests available.
 
 Link : https://drive.google.com/drive/folders/1DwjBZtHoHwco2BUn804p5lMKU3-78fuy?usp=sharing
