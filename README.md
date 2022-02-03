@@ -28,9 +28,9 @@ designed Graphical User Interface (GUI), both models are capable of recognising 
 
 Both Convolutional Neural Network and Random Forest folders contain a model file and test file.
 
-'Model' is where the architecture and training of the model in implemented.
+- 'Model' is where the architecture and training of the model in implemented.
 
-'Test' is where the model is tested with various light itensity datasets. 
+- 'Test' is where the model is tested with various light itensity datasets. 
 
 'Data Pipeline' contains a file to concentrate all seperate gestures into one large dataframe.
 You can upload a folder containing a series of labelled gestures to concetrate into one dataframe. 
